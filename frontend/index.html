@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo Shopping Site</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.28.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <nav>
+    <div class="navbar bg-base-100">
+      <div class="flex-1">
+        <a class="btn btn-ghost normal-case text-xl">Demo</a>
+      </div>
+      <div class="flex-none">
+        <ul class="menu menu-horizontal p-0">
+          <li><a>Home</a></li>
+          <li><a>About</a></li>
+          <li><a>Contact</a></li>
+          <li><a>Cart</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section>
+      <div class="hero min-h-screen"
+        style="background-image: url(https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center md:text-left md:w-full md:justify-start text-neutral-content">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-5xl font-bold">Demo Store</h1>
+            <p class="mb-5">Buy your favourite products at amazing prices.</p>
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div id="products" class="container mx-auto flex flex-col md:flex-row flex-wrap gap-3 my-5 items-center md:items-start"></div>
+    </section>
+  </main>
+
+  <footer>
+    <script src="./assets/js/products.js"></script>
+    <p>&copy; Copyright, 2022. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
