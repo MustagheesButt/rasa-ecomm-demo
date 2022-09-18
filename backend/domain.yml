@@ -8,6 +8,9 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - inquire_about_store
+  - inquire_payment_options
+  - inquire_delivery_charges
 
 responses:
   utter_greet:
@@ -28,6 +31,21 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_about_store:
+  - text: "We are a computer accessories store. You can find Keyboards, Mice, GPUs etc here."
+
+  utter_payment_options:
+  - text: "You can pay online using MasterCard, Visa and Paypal."
+  - text: "We accept MasterCard, Visa and Paypal."
+
+  utter_delivery_charges:
+  - text: "A $10 shipping fee is charged for local, and $40 for international orders."
+  - text: |
+      Our delivery charges are as follows:
+      - Local: 10 USD
+      - International: 40 USD
+  - text: "We charge $10 for local, and $40 for international orders."
 
 session_config:
   session_expiration_time: 60

@@ -89,3 +89,41 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: inquire_about_store
+  examples: |
+    - what do you guys sell?
+    - what is this store about?
+    - tell me about yourself
+    - tell me about your store
+    - what can i find here?
+    - what can i purchase from here?
+    - i want to know about this store
+    - i wanna learn more about this store
+    - what services do you provide?
+    - do you sell electronics?
+    - can i buy electronics from here?
+    - can i buy groceries from here?
+    - is this an interior decor store?
+    - is this a cosmentics store?
+
+- intent: inquire_payment_options
+  examples: |
+    - how can i make my payment
+    - what payment options are available?
+    - what payment methods are available?
+    - can i use visa here?
+    - can i use mastercard here?
+    - do you accept paypal?
+    - will paypal work for payment?
+    - can i make my payments using paypal?
+
+- intent: inquire_delivery_charges
+  examples: |
+    - what are the delivery charges
+    - what are the shipping charges
+    - how much do you guys charge for shipping
+    - how much u charge for delivery
+    - what is your delivery policy
+    - what are your shipping fees
+    - tell me about your delivery cost

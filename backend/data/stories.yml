@@ -28,3 +28,18 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: inquire about store
+  steps:
+  - intent: inquire_about_store
+  - action: utter_about_store
+
+- story: inquire about payment options
+  steps:
+  - intent: inquire_payment_options
+  - action: utter_payment_options
+
+- story: inquire about delivery charges
+  steps:
+  - intent: inquire_delivery_charges
+  - action: utter_delivery_charges

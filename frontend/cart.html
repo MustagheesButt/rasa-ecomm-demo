@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart | Demo Shopping Site</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.28.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <nav>
+    <div class="navbar bg-base-100">
+      <div class="flex-1">
+        <a class="btn btn-ghost normal-case text-xl">Demo</a>
+      </div>
+      <div class="flex-none">
+        <ul class="menu menu-horizontal p-0">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/cart.html">Cart</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <h1 class="text-3xl my-20 text-center">Cart</h1>
+  
+    <div class="overflow-x-auto container mx-auto">
+      <table class="table table-zebra w-full" id="cart-table">
+        <!-- head -->
+        <thead>
+          <tr>
+            <th></th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          
+        </tbody>
+      </table>
+    </div>
+
+    <div class="container mx-auto my-20 flex justify-end">
+      <table class="table table-zebra">
+        <tbody>
+          <tr>
+            <td>Subtotal</td>
+            <td><strong class="subtotal">0</strong></td>
+          </tr>
+          <tr>
+            <td>Tax</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Estimated Shipping</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Discounts</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td><strong class="total">0</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="container mx-auto my-20 text-right">
+      <button class="btn btn-primary">Checkout</button>
+    </div>
+  </main>
+
+  <footer class="p-5">
+    <script src="./assets/js/products.js"></script>
+    <script src="./assets/js/cart.js"></script>
+    <p>&copy; Copyright, 2022. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
