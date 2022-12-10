@@ -27,6 +27,12 @@ If it gives any errors during installation of some dependencies, simply run `pip
 
 `rasa shell`
 
+OR, run it as a web socket:
+
+`rasa run`
+
+The same command will/should also run it as a REST API. But our frontend connects to it through websockets using socket.io
+
 ## Frontend
 
 A simple ecommerce store for demonstrating the bot. Built using plain HTML/CSS and Vanilla JS.

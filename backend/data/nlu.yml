@@ -105,7 +105,7 @@ nlu:
     - can i buy electronics from here?
     - can i buy groceries from here?
     - is this an interior decor store?
-    - is this a cosmentics store?
+    - is this a cosmetics store?
 
 - intent: inquire_payment_options
   examples: |
@@ -113,7 +113,9 @@ nlu:
     - what payment options are available?
     - what payment methods are available?
     - can i use visa here?
+    - do you accept visa or mastercard?
     - can i use mastercard here?
+    - will visa/mastercard work here?
     - do you accept paypal?
     - will paypal work for payment?
     - can i make my payments using paypal?
